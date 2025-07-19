@@ -26,6 +26,6 @@
 </head>
 <body>
   <!-- Das Bild, das im Vollbild angezeigt wird -->
-  <img src="test-pattern-152459_1920.png" alt="Vollbild Bild">
+  <img src="img/test-pattern-152459_1920.png" alt="Vollbild Bild">
 </body>
 </html>
