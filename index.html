@@ -35,6 +35,14 @@
   <img src="test-pattern-152459_960_720.png" alt="Vollbild" id="fullImage">
 
   <script>
+    // Dynamische Höhe für mobile Geräte setzen
+    function setViewportHeight() {
+      const vh = window.innerHeight * 0.01;
+      document.documentElement.style.setProperty('--vh', `${vh}px`);
+    }
+
+    setViewportHeight();
+    window.addEventListener('resize', setViewportHeight);
     // Sofort Konfetti
     confetti({
       particleCount: 180,
